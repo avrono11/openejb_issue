@@ -1,0 +1,11 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+
+<persistence-unit name="avronDBP" transaction-type="JTA">
+    <jta-data-source>jdbc/testDB</jta-data-source>
+    <class>com.TestEntity</class>
+     <properties>
+            <property name="openjpa.jdbc.DBDictionary" value="mysql"/>
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema"/>
+      </properties>
+  </persistence-unit>
+  </persistence>

@@ -1,0 +1,330 @@
+14-Dec-2012 13:03:20 org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386/client:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/i386:/usr/lib/jvm/java-6-sun-1.6.0.26/jre/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+14-Dec-2012 13:03:20 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+14-Dec-2012 13:03:20 org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+14-Dec-2012 13:03:22 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+14-Dec-2012 13:03:23 org.apache.tomee.catalina.TomcatLoader optionalService
+INFO: Optional service not installed: org.apache.tomee.webservices.TomeeJaxRsService
+14-Dec-2012 13:03:23 org.apache.tomee.catalina.TomcatLoader optionalService
+INFO: Optional service not installed: org.apache.tomee.webservices.TomeeJaxWsService
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Fri Dec 14 13:03:23 GMT 2012
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2012 (C) Apache OpenEJB Project, All Rights Reserved.
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.5.0
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20120928
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 08:12
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /home/avrono/workspace/mPRSX/target/apache-tomee
+14-Dec-2012 13:03:23 org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /home/avrono/workspace/mPRSX/target/apache-tomee
+14-Dec-2012 13:03:23 org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@16e1782
+14-Dec-2012 13:03:23 org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/home/avrono/workspace/mPRSX/target/apache-tomee/conf/tomee.xml'
+14-Dec-2012 13:03:23 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.provider.default=org.apache.tomee'
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My DataSource, type=Resource, provider-id=Default JDBC Database)
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Unmanaged DataSource, type=Resource, provider-id=Default JDBC Database)
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Singleton Container, type=Container, provider-id=Default Singleton Container)
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Stateful Container, type=Container, provider-id=Default Stateful Container)
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=My Stateless Container, type=Container, provider-id=Default Stateless Container)
+14-Dec-2012 13:03:23 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=true'
+14-Dec-2012 13:03:23 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: null
+14-Dec-2012 13:03:23 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Using openejb.deploymentId.format '{ejbName}'
+14-Dec-2012 13:03:23 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/Deployer: EjbDeployment(deployment-id=openejb/Deployer)
+14-Dec-2012 13:03:23 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb openejb/ConfigurationInfo: EjbDeployment(deployment-id=openejb/ConfigurationInfo)
+14-Dec-2012 13:03:23 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb MEJB: EjbDeployment(deployment-id=MEJB)
+14-Dec-2012 13:03:23 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "openejb" loaded.
+14-Dec-2012 13:03:23 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+14-Dec-2012 13:03:23 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+14-Dec-2012 13:03:23 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=My DataSource)
+14-Dec-2012 13:03:23 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=My Unmanaged DataSource)
+14-Dec-2012 13:03:23 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Singleton Container)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Stateful Container)
+14-Dec-2012 13:03:24 org.apache.openejb.core.stateful.SimplePassivater init
+INFO: Using directory /home/avrono/workspace/mPRSX/target/apache-tomee/temp for stateful session passivation
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=My Stateless Container)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: openejb
+14-Dec-2012 13:03:24 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jndiname.format={deploymentId}{interfaceType.openejbLegacyName}'
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/DeployerBusinessRemote) --> Ejb(deployment-id=openejb/Deployer)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer!org.apache.openejb.assembler.Deployer) --> Ejb(deployment-id=openejb/Deployer)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/Deployer) --> Ejb(deployment-id=openejb/Deployer)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=openejb/ConfigurationInfoBusinessRemote) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo!org.apache.openejb.assembler.classic.cmd.ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/openejb/ConfigurationInfo) --> Ejb(deployment-id=openejb/ConfigurationInfo)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=MEJB) --> Ejb(deployment-id=MEJB)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB!javax.management.j2ee.ManagementHome) --> Ejb(deployment-id=MEJB)
+14-Dec-2012 13:03:24 org.apache.openejb.assembler.classic.JndiBuilder bind
+INFO: Jndi(name=global/openejb/MEJB) --> Ejb(deployment-id=MEJB)
+14-Dec-2012 13:03:24 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@16e1782
+14-Dec-2012 13:03:24 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+14-Dec-2012 13:03:24 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+14-Dec-2012 13:03:24 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+14-Dec-2012 13:03:24 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+14-Dec-2012 13:03:25 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 428 ms.
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Stateless Container)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=MEJB, ejb-name=MEJB, container=My Stateless Container)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Created Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=My Stateless Container)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=openejb/Deployer, ejb-name=openejb/Deployer, container=My Stateless Container)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=MEJB, ejb-name=MEJB, container=My Stateless Container)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Started Ejb(deployment-id=openejb/ConfigurationInfo, ejb-name=openejb/ConfigurationInfo, container=My Stateless Container)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler deployMBean
+INFO: Deployed MBean(openejb.user.mbeans:application=openejb,group=org.apache.openejb.assembler.monitoring,name=JMXDeployer)
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=openejb)
+14-Dec-2012 13:03:25 org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+14-Dec-2012 13:03:25 org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+14-Dec-2012 13:03:25 org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+14-Dec-2012 13:03:25 org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+14-Dec-2012 13:03:25 org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5904 ms
+14-Dec-2012 13:03:25 org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+14-Dec-2012 13:03:25 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+14-Dec-2012 13:03:25 org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+14-Dec-2012 13:03:25 org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.30
+14-Dec-2012 13:03:25 org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/PRSX-1.1.0.war
+14-Dec-2012 13:03:25 org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /PRSX-1.1.0
+14-Dec-2012 13:03:25 org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/PRSX-1.1.0.war
+14-Dec-2012 13:03:25 org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/PRSX-1.1.0
+14-Dec-2012 13:03:25 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+14-Dec-2012 13:03:27 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/PRSX-1.1.0
+14-Dec-2012 13:03:27 org.apache.openejb.config.InitEjbDeployments deploy
+INFO: Auto-deploying ejb HelloBean: EjbDeployment(deployment-id=HelloBean)
+14-Dec-2012 13:03:27 org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+14-Dec-2012 13:03:27 org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean localhost/PRSX-1.1.0.Comp: Container(type=MANAGED, id=Default Managed Container)
+14-Dec-2012 13:03:27 org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+14-Dec-2012 13:03:27 org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory /home/avrono/workspace/mPRSX/target/apache-tomee/temp for stateful session passivation
+14-Dec-2012 13:03:27 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'java:comp/env/avronDB' in bean localhost/PRSX-1.1.0.Comp to Resource(id=My DataSource)
+14-Dec-2012 13:03:27 org.apache.openejb.config.AutoConfig processResourceRef
+INFO: Auto-linking resource-ref 'java:comp/env/avronDB' in bean HelloBean to Resource(id=My DataSource)
+14-Dec-2012 13:03:27 org.apache.openejb.config.AutoConfig deploy
+INFO: Configuring PersistenceUnit(name=avronDBP)
+14-Dec-2012 13:03:27 org.apache.openejb.config.AutoConfig setJtaDataSource
+INFO: Adjusting PersistenceUnit avronDBP <jta-data-source> to Resource ID 'My DataSource' from 'jdbc/testDB'
+14-Dec-2012 13:03:27 org.apache.openejb.config.AutoConfig setNonJtaDataSource
+INFO: Adjusting PersistenceUnit avronDBP <non-jta-data-source> to Resource ID 'My Unmanaged DataSource' from 'null'
+14-Dec-2012 13:03:27 org.apache.openejb.config.ReportValidationResults logResults
+SEVERE: FAIL ... HelloBean:	Persistence unit not found for @PersistenceContext(name="entityManager", unitName="PRSX").  Available units [avronDBP]
+14-Dec-2012 13:03:27 org.apache.openejb.config.ReportValidationResults logResults
+SEVERE: Invalid EjbModule(name=localhost/PRSX-1.1.0, path=/home/avrono/workspace/mPRSX/target/apache-tomee/webapps/PRSX-1.1.0)
+14-Dec-2012 13:03:27 org.apache.openejb.config.ReportValidationResults deploy
+INFO: Set the 'openejb.validation.output.level' system property to VERBOSE for increased validation details.
+14-Dec-2012 13:03:27 org.apache.tomee.catalina.TomcatWebAppBuilder startInternal
+SEVERE: Unable to deploy collapsed ear in war StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRSX-1.1.0]
+org.apache.openejb.config.ValidationFailedException: Module failed validation. AppModule(name=PRSX-1.1.0)
+	at org.apache.openejb.config.ReportValidationResults.deploy(ReportValidationResults.java:82)
+	at org.apache.openejb.config.AppInfoBuilder.build(AppInfoBuilder.java:286)
+	at org.apache.openejb.config.ConfigurationFactory.configureApplication(ConfigurationFactory.java:853)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:791)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:746)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:118)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:618)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:963)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1600)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+14-Dec-2012 13:03:27 org.apache.catalina.core.ContainerBase removeChild
+SEVERE: ContainerBase.removeChild: destroy: 
+org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_destroy]) for component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRSX-1.1.0]] in state [STARTING_PREP]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:408)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1041)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.undeploy(TomcatWebAppBuilder.java:977)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.undeploy(TomcatWebAppBuilder.java:956)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:797)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:746)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:118)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:618)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:963)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1600)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+14-Dec-2012 13:03:27 org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRSX-1.1.0]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:618)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:963)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1600)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.tomee.catalina.TomEERuntimeException: org.apache.openejb.config.ValidationFailedException: Module failed validation. AppModule(name=PRSX-1.1.0)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:800)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.configureStart(TomcatWebAppBuilder.java:746)
+	at org.apache.tomee.catalina.GlobalListenerSupport.lifecycleEvent(GlobalListenerSupport.java:118)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+Caused by: org.apache.openejb.config.ValidationFailedException: Module failed validation. AppModule(name=PRSX-1.1.0)
+	at org.apache.openejb.config.ReportValidationResults.deploy(ReportValidationResults.java:82)
+	at org.apache.openejb.config.AppInfoBuilder.build(AppInfoBuilder.java:286)
+	at org.apache.openejb.config.ConfigurationFactory.configureApplication(ConfigurationFactory.java:853)
+	at org.apache.tomee.catalina.TomcatWebAppBuilder.startInternal(TomcatWebAppBuilder.java:791)
+	... 17 more
+14-Dec-2012 13:03:27 org.apache.catalina.startup.HostConfig deployWAR
+SEVERE: Error deploying web application archive /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/PRSX-1.1.0.war
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRSX-1.1.0]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:904)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:618)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:963)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1600)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+14-Dec-2012 13:03:28 org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee
+14-Dec-2012 13:03:28 org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: -------------------------
+TomcatWebAppBuilder.init /tomee
+14-Dec-2012 13:03:28 org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+14-Dec-2012 13:03:28 org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee
+14-Dec-2012 13:03:28 org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee" loaded.
+14-Dec-2012 13:03:28 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee
+14-Dec-2012 13:03:28 org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance() org.apache.openejb.cdi.ThreadSingletonServiceImpl@16e1782
+14-Dec-2012 13:03:28 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+14-Dec-2012 13:03:28 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+14-Dec-2012 13:03:28 org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+14-Dec-2012 13:03:28 org.apache.openejb.cdi.BeansDeployer validateInjectionPoints
+INFO: All injection points are validated successfully.
+14-Dec-2012 13:03:28 org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 15 ms.
+14-Dec-2012 13:03:28 org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using context file /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee/META-INF/context.xml
+14-Dec-2012 13:03:28 org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee)
+14-Dec-2012 13:03:30 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+14-Dec-2012 13:03:30 org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+14-Dec-2012 13:03:30 org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4867 ms
+14-Dec-2012 13:04:56 org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Dec-2012 13:04:56 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+14-Dec-2012 13:04:56 org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+14-Dec-2012 13:04:56 org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+14-Dec-2012 13:04:56 org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/avrono/workspace/mPRSX/target/apache-tomee/webapps/tomee
