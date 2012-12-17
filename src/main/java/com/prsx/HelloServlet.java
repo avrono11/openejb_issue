@@ -26,12 +26,13 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
 		
+		/*
 		try {
 			request.login("avrono","avrono");
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
-		
+		*/
 		final java.io.Writer writer = response.getWriter();
 		writer.append("<html>");
 		writer.append("<body>");

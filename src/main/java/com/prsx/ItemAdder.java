@@ -33,7 +33,7 @@ public class ItemAdder {
 	@SuppressWarnings("unused")
 	private Connection connection;
 	
-	@Resource(name="avronDB", type=javax.sql.DataSource.class)
+	@Resource(name="jdbc/testDB", type=javax.sql.DataSource.class)
 	private DataSource dataSource;
 	
 	public int getId() {

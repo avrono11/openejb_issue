@@ -19,9 +19,10 @@ import com.prsx.persistence.Item;
 @LocalBean
 public class HelloBean implements Serializable  {
 	
+	/*
 	@PersistenceContext(unitName = "PRSX", type = PersistenceContextType.EXTENDED)
     private EntityManager entityManager;
-	
+	*/
     public String from() {
     	
     	/* Testing persistance with the Entity Manager */

@@ -1,11 +1,12 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
 
-<persistence-unit name="PRSX" transaction-type="JTA">
+<persistence-unit name="PRSX" >
     <jta-data-source>jdbc/testDB</jta-data-source>
-    <class>com.TestEntity</class>
+    <class>com.prsx.EntityManager</class>
+    
      <properties>
             <property name="openjpa.jdbc.DBDictionary" value="mysql"/>
-            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema"/>
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
       </properties>
   </persistence-unit>
   </persistence>
